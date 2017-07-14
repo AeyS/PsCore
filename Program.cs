@@ -29,7 +29,7 @@ namespace PsCore
             catch
             {
                 Console.WriteLine("输入错误，请输入功能序号！");
-                InputNum(showInfo);
+                return InputNum(showInfo);
             }
             return m;
         }
